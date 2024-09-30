@@ -1,0 +1,78 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #2c3e50; /* Cor de fundo escura para dar destaque */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white; /* Cor do texto em branco para contraste */
+  }
+  
+  /* Container central */
+  .container {
+    background-color: #34495e;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidade */
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    border: 2px solid #1abc9c; /* Uma borda sutil */
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  #question {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Botões estilizados */
+  .buttons button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #1abc9c; /* Cor vibrante para o botão */
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buttons button:hover {
+    background-color: #16a085; /* Cor do hover */
+  }
+  
+  #response {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-style: italic;
+  }
+  
+  /* Animações visuais */
+  .container {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
